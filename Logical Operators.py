@@ -1,0 +1,20 @@
+#LOGICAL OPERATOR 
+ 
+#AND 
+
+x = 10
+y = 20
+
+print(x < y and y > x)  # RETURNS TRUE BCOZ BOTH STATEMNET ARE TRUE
+
+# OR
+
+x = 20
+y = 55
+
+print(x < y or y < x)#RETURNS TRUE BECAUSE IF A SINGLE STATEMENT IS TRUE IF DECLRED TRUE
+
+#NOT
+x = 5
+
+print(not(x > 3 and x < 10)) #REVERSE THE RESULT RETURNS FALSE IF THE RESULT IS TRUE
