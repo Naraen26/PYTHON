@@ -29,11 +29,6 @@ print(x>y)
 
 
 
-
-
-
-
-
 #(<)
 
 marks = 75
@@ -71,4 +66,17 @@ print(x>=y)
 x = 5
 y = 3
 
+print(x <= y)
+
+
+#BASED ON THE COMPARSION THEY GIVE THE RESULT AS TRUE OR FALSE 
+
+x = 5
+y = 3
+
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
 print(x <= y)
