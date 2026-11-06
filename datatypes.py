@@ -11,7 +11,6 @@ e = {"name" : "mikey" , "age" :27} #DICT
 f = True 
 g = bytes (7)
 
-
 print(type(x))
 print(x)
 print(type(y))
