@@ -73,3 +73,14 @@ if password == 1234:
     print("WRONG PASSWORD")
 else:
     print("LOGIN SUCCESSFUL")
+
+#SAMPLE
+
+bool("abc") 
+# True  (EXPECT EMPTY STRING)
+
+bool(123)
+# True (EXCEPT 0)
+
+bool(["apple", "cherry", "banana"])
+# True  (EXPECT EMPTY ONES)
