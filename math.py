@@ -1,0 +1,27 @@
+x = min(22,34,21,45,3212,13)
+y = max(232,32,4,5,32,323,32,3434,34,242)
+
+print("min:",x)
+print ("max:",y)
+
+#ABS() //IT IS USED TO CONVERT THE NEGAIVE VALUE TO THE POSITIVE ONE
+
+x = abs(-234)
+
+print(x)
+
+#MATH.SQRT() // USED TO FIND THE SQUARE ROOT OF THE VALUE
+import math
+x = math.sqrt(56)
+
+print(x)
+
+#MATH.CEIL() METHOD THAT USED TO ROUND A NUMBER UPWARDS TO  NEAREST INTEGER
+
+x = math.ceil(45.34)
+print(x)
+
+#MATH.FLOOR() METHOD THAT IS USED TO ROUND A NUMBER DOWNWARDS TO THE NEAREST INTEGER
+
+x = math.floor(23.80)
+print(x)
