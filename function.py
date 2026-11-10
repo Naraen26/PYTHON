@@ -34,3 +34,28 @@ def my_function(animal, name):
 my_function(animal = "dog", name = "Buddy")
 
 #SAMPLE 4
+def my_function(name, age, breed):
+    print("My dog name is:", name)
+    print("His age is:", age)
+    print("Its breed is:", breed)
+
+my_function(name="mara", age="3", breed="dobberman")
+
+
+#*ARGS
+def my_function(*args):
+    print("Type:", type(args))
+    print("first name:",args[1])
+    print("second name:",args[2])
+    print("third name:",args[0])
+my_function("isagi","bachira","rin")
+
+
+# **KWARGS
+def my_function(**myvar):
+    print("Type:", type(myvar))
+    print("Name:", myvar["name"])
+    print("Age:", myvar["age"])
+    print("All data:", myvar)
+
+my_function(name="senju", age=20, city="tokyo")
